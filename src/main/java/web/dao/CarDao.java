@@ -1,11 +1,11 @@
 package web.dao;
 
-import web.models.Car;
+import web.model.Car;
 
 import java.util.List;
 
 public interface CarDao {
-    public List<Car> returnSomeCars(int count);
+    public List<Car> getCars(int count);
 
-    public int returnQuantityOfCars();
+    public int countCars();
 }
